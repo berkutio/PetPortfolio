@@ -1,0 +1,193 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/*
+
+   Author: Ihor Shvedenenko
+   Date:   03/04/2021
+  
+   Filename: base.css
+*/
+
+body, 
+div, footer, 
+h1, header, html, 
+main, nav {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+html {
+   background-color: rgb(126, 123, 119);
+   font-family: 'Shippori Mincho B1', serif;
+}
+
+body {
+	background-color: rgb(235, 231, 224);
+	box-shadow: 15px 0px 30px rgb(51, 51, 51),
+				-15px 0px 30px rgb(51, 51, 51);	
+	margin: 0px auto;				   
+   max-width: 1024px;
+   width: 100%;
+   height: 100%;
+}
+
+body header h1 {
+   font-weight: bold;
+   font-size: 3em;
+   text-align: center;
+   padding: 20px 0px 20px;
+}
+
+nav.horizontal ul {
+   padding: 0px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+nav.horizontal a {
+   text-decoration: none;
+   color: black;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+ul.nav, ul.nav_long_screen {
+   font-weight: bold;
+}
+
+nav.horizontal ul li { 
+   background-color: aliceblue;
+   display: block;
+   line-height: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+section.portfolio {
+   background-color: aliceblue;
+}
+
+h1.portfolio_title {
+   background-color: aliceblue;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+section#avatar section#img img {
+   border-radius: 50px;
+}
+
+section.portfolio section.portfolio_item img {
+   width: 100%;
+   padding: 20px;
+   border-radius: 50px;
+   box-sizing: border-box;
+}
+
+section.portfolio section.portfolio_item h1 {
+   box-sizing: border-box;
+   text-align: center;
+   font-size: 1.5em;
+}
+
+section.portfolio section.portfolio_item p {
+   text-align: center;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+
+section.portfolio section.portfolio_item {
+   padding-bottom: 40px;
+}
+
+section#contact {
+   padding: 25px;
+   text-align: center;
+}
+
+section#contact h1 {
+   text-transform: uppercase;
+}
+
+section#contact a {
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+}
+
+section#text {
+   font-family: 'Indie Flower', cursive;
+}
+
+body footer {
+   margin-left: 20px;
+   margin-right: 20px;
+   border-top: 1px solid rgb(151, 151, 151);
+}
+
+footer.bottom_nav ul.nav, footer.bottom_nav ul.nav_long_screen {
+   display: flex;
+   justify-content: space-around;
+   list-style-type: none;
+   margin: 0 auto;
+   padding: 0;
+}
+
+footer.bottom_nav ul.nav li.name, footer.bottom_nav ul.nav_long_screen li.name {
+   display: block;
+   margin-right: auto;
+   list-style-type: none;
+}
+
+footer.bottom_nav ul.nav li, footer.bottom_nav ul.nav_long_screen li {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-right: 10px;
+}
+
+footer.bottom_nav a {
+   text-decoration: none;
+   color: black;
+}
+
+@media only screen and (min-width: 768px) {
+
+   nav.horizontal ul li { 
+      background-color: rgb(235, 231, 224);
+      margin-left: 15px;
+      margin-right: 15px;
+   }
+
+} 
+
+@media only screen and (min-width:1024px) {
+
+   header h1 {
+      margin-left: 20px;
+   }
+
+   nav.horizontal ul {
+      margin-bottom: 0px;
+   }
+
+   nav.horizontal ul li {
+      padding-bottom: 0px;
+      padding-top: 30px;
+      margin-bottom: 0px;
+  }
+  
+} 
