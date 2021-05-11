@@ -6,4 +6,4 @@ Pet portfolio profile, which can be used as a pattern of the real portfolio. Giv
   <img src="https://github.com/ihorshvh/PetPortfolio/blob/main/index.png" width="950" height="750"/>
 </p>
 
-<a href="https://ihorshvh.github.io/Profile/">See website</a>
+<a href="https://ihorshvh.github.io/PetPortfolio/">See website</a>
